@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./SlickNav/dist/slicknav.min.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="./fontawesome/webfonts/fa-brands-400.ttf">
+    <link rel="stylesheet" href="./fontawesome/webfonts/fa-solid-900.ttf">
+    <link rel="icon" type="image/x-icon" href="./favicon/favicon.ico">
+    <script src="./scripts/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="./SlickNav/dist/jquery.slicknav.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script>
+        $(function(){
+            $('#nav').slicknav();
+        });
+    </script>
+    
+    <title>SIU ESports</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="The website for everything Southern Illinois University Esports!">
+    <meta name="keywords" content="SIU, SIUC, Carbondale, Esports, Collegiate, Competition, Gaming, ESports, Southern Illinois University, Illinois">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <div id="nav">
+        <ul>
+            <li><a href="index.html" id="current">Home</a></li>
+            <li><a href="pages/about/about.html">About</a></li>
+            <li><a href="pages/teams/teams.html">Our Teams</a>
+                <ul>
+                    <li><a href="pages/teams/apex.html">Apex Legends</a></li>
+                    <li><a href="pages/teams/cod.html">Call of Duty</a></li>
+                    <li><a href="pages/teams/csgo.html">Counter Strike</a></li>
+                    <li><a href="pages/teams/hearthstone.html">Hearthstone</a></li>
+                    <li><a href="pages/teams/league.html">League of Legends</a></li>
+                    <li><a href="pages/teams/overwatch.html">Overwatch</a></li>
+                    <li><a href="pages/teams/rocketleague.html">Rocket League</a></li>
+                    <li><a href="pages/teams/smash.html">Smash Bros</a></li>
+                    <li><a href="pages/teams/valorant.html">Valorant</a></li>
+                </ul>
+            </li>
+            <li><a href="pages/casual/casual.html">Casual</a>
+                <ul>
+                    <li><a href="pages/casual/fighting.html">Fighting Games</a></li>
+                    <li><a href="pages/casual/rhythm.html">Rhythm Games</a></li>
+                    <li><a href="pages/casual/smash.html">Smash Bros</a></li>
+                </ul>
+            </li>
+            <li><a href="pages/staff/staff.html">Staff</a>
+                <ul>
+                    <li><a href="pages/staff/officers.html">Officers & Advisors</a></li>
+                    <li><a href="pages/staff/gameheads.html">Game Heads</a></li>
+                    <li><a href="pages/staff/coaches.html">Coaches</a></li>
+                </ul>
+            </li>
+            <li><a href="pages/events/events.html">Events</a>
+                <ul>
+                    <li><a href="pages/events/weeklies.html">Weeklies</a></li>
+                    <li><a href="pages/events/special_events.html">Special Events</a></li>
+                </ul>
+            </li>
+            <li><a href="pages/contact/contact.html">Contact Us</a></li>
+        </ul>
+    </div class="nav">
+
+    <!-- Title -->
+    <h1 id="title-img" alt="Pictures of players in SIU ESports Arena">SIU ESports</h1>
+
+    <!-- What is ESports Row -->
+    <div class="row-grid-w">
+        <!-- Logo -->
+        <div class="column-grid">
+            <img src="images/logo.png" alt="SIU ESports Logo" id="aboutus-logo">
+        </div>
+
+        <!-- About Us Text -->
+        <div class="column-grid">
+            <h2>What is SIU ESports?</h2>
+            <p id="aboutshort">SIU ESports is our program for collegiate gaming where we strive to compete at the highest level. With over 10 competitive teams we aim to push higher to improve our teams, players, and program.</p>
+        </div>
+    </div>
+
+    <!-- Comp Row -->
+    <div class="row-grid-m">
+        <div class="column-grid">
+            <h2 id="compcasual">Competitive<br>And<br>Casual</h2>
+        </div>
+
+        <!-- Competitive and Casual Info -->
+        <div class="column-grid">
+            <p>At SIU we provide a wide range of games to compete in such as Rocket League, Valorant, CS:GO, and more. Every week these teams are practing to not only compete but to win.</p><br>
+            <p>If the competitive scene is not for you, we offer a variety of casual games including Dance Dance Revolution, Guilty Gear Strive, Smash Bros, and more.</p>
+        </div>
+    </div>
+    
+    <!-- Join Esports -->
+    <div class="row-grid-w2">
+        <div class="column-grid">
+            <p>If you are interested in joining one of our teams or meeting with other casual gamers, use the button below to join our discord for more information.</p>
+            <a href="https://discord.gg/b378XE76DM" id="joinbtn">Join Our Discord!</a>
+        </div>
+        <div class="column-grid">
+            <h2 class="textr">Interested<br>in ESports?</h2>
+        </div>
+    </div>
+
+    <!-- News -->
+    <div class="row-grid-w2">
+        <div class="column-grid">
+            <h2 class="textl">News</h2>
+            <p><b>NOW</b> - Sign our private space petition to help SIU ESports!</p>
+            <p><b>11/30</b> - Mod's Pizza Fundraiser</p>
+            <p><b>12/1</b> - Overwatch NECC Semifinals</p>
+            <p><b>12/2</b> - Rocket League NECC Semifinals</p>
+            <p><b>12/3</b> - League of Legends 1v1 Tournament</p>
+        </div>  
+        <div class="column-grid">
+            <img src="images/fistbump.jfif" alt="Players fistbumping after win" id="news-img">
+        </div>
+    </div>
+</body>
+
+<!-- Footer -->
+<footer>
+    <div class="row-grid-footer">
+        <div class="column-grid-footer" id="footertext">
+            <p><b>Southern Illinois University Carbondale</b></p>
+            <p><b>Address: </b>300 E Grand Ave, Carbondale, IL 62901</p>
+            <p><b>Email: </b>esports.siuc@gmail.com</p>
+            <a href="https://twitter.com/siu_esports?lang=en" class="fa"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/siucesports/" class="fa"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/siuc_esports/?hl=en" class="fa"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitch.tv/siu_esports" class="fa"><i class="fa-brands fa-twitch"></i></a>
+            <a href="https://www.youtube.com/channel/UC76b1gAWO6ikiEHZP5Xrutg" class="fa"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://discord.gg/b378XE76DM" class="fa"><i class="fa-brands fa-discord"></i></a>
+        </div>
+
+        <div class="column-grid-footer">
+            <img src="images/SIUlogo.png" alt="SIU Logo" id="footerlogo">
+            <img src="images/logo.png" alt="Esports Logo" id="footerlogo">
+        </div>
+    </div>
+</footer>
+</html>
