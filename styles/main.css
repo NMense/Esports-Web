@@ -35,6 +35,10 @@
     src: url(../fonts/Ubuntu.ttf);
 }
 
+a {
+    font-size: inherit;
+}
+
 b {
     font-size: inherit;
 }
@@ -43,6 +47,7 @@ footer {
     background-color: #860111;
     color: white;
     display: flex;
+    bottom: 0;
 }
 
 h1 {
@@ -115,6 +120,17 @@ p {
     background-color: white;
     border: 1px solid black;
     color: #860111;
+}
+
+#mission-img {
+    height: 26em;
+    float: left;
+    margin: auto;
+}
+
+#mission-text {
+    margin-left: 5%;
+    margin-bottom: 3%;
 }
 
 /* Navigation menu */
@@ -194,6 +210,16 @@ p {
     width: 100%;
 }
 
+#opening-img {
+    height: 48em;
+    float: right;
+    margin: auto;
+}
+
+#opening-text {
+    margin-right: 5%;
+}
+
 #title-img {
     background-image: url(../images/title.jpg);
     background-repeat: no-repeat;
@@ -229,7 +255,7 @@ p {
 
 .fa {
     margin: 0.5em 0.25em 0 0;
-    padding: 0.25em;
+    padding: 0.25em 0.5em;
     border-radius: 10%;
     text-align: center;
     text-decoration: none;
@@ -249,6 +275,16 @@ p {
 
 .floatr {
     float: right;
+}
+
+.row-full-nor {  
+    margin: 0 0 0 7.5%;
+    display: flex;
+}
+
+.row-full-nol {  
+    margin: 0 7.5% 0 0;
+    display: flex;
 }
 
 .row-grid-w {
