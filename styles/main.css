@@ -67,6 +67,10 @@ h2 {
     padding-bottom: 3%;
 }
 
+h3 {
+    font-size: 300%;
+}
+
 p {
     font-family: Exo-Thin;
     font-size: 200%;
@@ -218,6 +222,12 @@ p {
 
 #opening-text {
     margin-right: 5%;
+}
+
+#rl-img {
+    height: 35em;
+    float: right;
+    margin: auto;
 }
 
 #title-img {
