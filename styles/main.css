@@ -235,6 +235,53 @@ p {
     width: 100%;
 }
 
+#team-s-apex {
+    background-image: url(../pages/teams/images/apex.webp);
+}
+
+#team-s-cod {
+    background-image: url(../pages/teams/images/cod.webp);
+}
+
+#team-s-csgo {
+    background-image: url(../pages/teams/images/csgo.png);
+}
+
+#team-s-hearth {
+    background-image: url(../pages/teams/images/hearthstone.png);
+}
+
+#team-s-lol {
+    background-image: url(../pages/teams/images/lol.jpeg);
+}
+
+#team-s-ow {
+    background-image: url(../pages/teams/images/ow2.jpg);
+}
+
+#team-s-rl {
+    background-image: url(../pages/teams/images/rl.webp);
+}
+
+#team-s-smash {
+    background-image: url(../pages/teams/images/smash.jfif);
+}
+
+#team-s-val {
+    background-image: url(../pages/teams/images/valorant.jpg);
+}
+
+#team-s-contain {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-maroon {
+    background-color: #860111;
+}
+
 .column {
     width: 45%;
     align-items: center;
@@ -277,13 +324,23 @@ p {
     float: right;
 }
 
-.row-full-nor {  
-    margin: 0 0 0 7.5%;
-    display: flex;
+.row-full {
+    margin: 0;
+    padding: 0 7.5% 0 7.5%;
 }
 
 .row-full-nol {  
     margin: 0 7.5% 0 0;
+    display: flex;
+}
+
+.row-full-norl {
+    margin: 0;
+    display: flex;
+}
+
+.row-full-nor {  
+    margin: 0 0 0 7.5%;
     display: flex;
 }
 
@@ -322,6 +379,20 @@ p {
 
 .slicknav_menu {
 	display: none;
+}
+
+.team-select {
+    margin: 3%;
+    border-radius: 1em;
+    transition: transform .2s;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+}
+
+.team-select:hover {
+    transform: scale(1.1);
 }
 
 .textl {
