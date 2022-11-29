@@ -71,6 +71,11 @@ h3 {
     font-size: 300%;
 }
 
+i {
+    font-family: inherit;
+    font-size: inherit;
+}
+
 p {
     font-family: Exo-Thin;
     font-size: 200%;
