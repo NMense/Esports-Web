@@ -71,6 +71,10 @@ h3 {
     font-size: 300%;
 }
 
+h4 {
+    font-size: 200%;
+}
+
 i {
     font-family: inherit;
     font-size: inherit;
@@ -339,6 +343,33 @@ p {
     float: right;
 }
 
+.record {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.record-date {
+    background-color: #860111;
+    padding: 0.1em 0.3em;
+    color: white;
+}
+
+.record-logo {
+    height: 8em;
+    margin: 0;
+    padding: 0.2em 1em;
+}
+
+.record_sec {
+    display: flex;
+    padding: 1em 0.5em;
+}
+
+.record-text {
+    padding: 0.1em;
+}
+
 .row-full {
     margin: 0;
     padding: 0 7.5% 0 7.5%;
@@ -357,6 +388,10 @@ p {
 .row-full-nor {  
     margin: 0 0 0 7.5%;
     display: flex;
+}
+
+.row-full-rec {
+    align-items: center;
 }
 
 .row-grid-w {
