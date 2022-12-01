@@ -94,6 +94,14 @@ p {
     width: 100%;
 }
 
+#cas-s-fight {
+    background-image: url(../pages/casual/images/fighting.png);
+}
+
+#cas-s-step {
+    background-image: url(../pages/casual/images/stepmania.png);
+}
+
 #compcasual {
     text-align: left;
 }
@@ -286,7 +294,7 @@ p {
     background-image: url(../pages/teams/images/rl.webp);
 }
 
-#team-s-smash {
+#team-s-smash, #cas-s-smash {
     background-image: url(../pages/teams/images/smash.jfif);
 }
 
