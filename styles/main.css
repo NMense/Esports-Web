@@ -366,7 +366,7 @@ p {
 }
 
 .game_list {
-    padding: 0.5em 3em 2em 3em;
+    padding: 0.5em 3em 0.5em 3em;
 }
 
 .game_list > li {
