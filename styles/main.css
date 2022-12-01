@@ -348,12 +348,30 @@ p {
     opacity: 0.7;
 }
 
+.fa-brands {
+    font-family: initial;
+    font-size: initial;
+}
+
+.flex_photo3 {
+    width: 33.33%;
+}
+
 .floatl {
     float: left;
 }
 
 .floatr {
     float: right;
+}
+
+.game_list {
+    padding: 0.5em 3em 2em 3em;
+}
+
+.game_list > li {
+    font-family: Exo-Thin;
+    font-size: 200%;
 }
 
 .game_title {
