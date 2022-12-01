@@ -239,6 +239,10 @@ p {
     margin: auto;
 }
 
+#smash-page {
+    margin: 2em 0;
+}
+
 #title-img {
     background-image: url(../images/title.jpg);
     background-repeat: no-repeat;
@@ -344,14 +348,22 @@ p {
     float: right;
 }
 
+.game_title {
+    padding: 0.6em 0.2em;
+    margin: 0.5em 15%;
+    text-align: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
 .players {
     display: flex;
     padding: 1em 0.5em;
-    margin: 0 auto;
 }
 
 .player_img {
     width: 100%;
+    min-width: 170px;
 }
 
 .player_info {
@@ -379,9 +391,7 @@ p {
 }
 
 .record-logo {
-    height: 8em;
-    padding: 0.2em 1em;
-    display: flex;
+    width: 8em;
 }
 
 .record_sec {
@@ -390,7 +400,30 @@ p {
 }
 
 .record_sec_high {
-    display: flex;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.record_sec_high > div {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.record_sec_high1 > div {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.record_sec_high1 {
+    display: grid;
+    grid-template-columns: 5% 40%;
+}
+
+.record_sec_high > .record_sec {
+    margin: 0;
 }
 
 .record-text {
