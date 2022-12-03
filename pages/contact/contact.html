@@ -62,70 +62,94 @@
 
     <!-- Title -->
     <h1>Contact Us!</h1>
-    <form name="myform" action="survey_data.html" method="get">
-        <h4>Contact information</h4>
-        <label for="email">Email:</label>
-        <input type="email" name="Email" id="email" autofocus required><br>
-        <label for="name">Name:</label>
-        <input type="text" name="Name" id="name" autofocus required><br>
-        <label for="State">State:</label>
-        <select name="Origin" id="origin">
-            <option value="al">Alabama</option>
-            <option value="ak">Alaska</option>
-            <option value="az">Arizona</option>
-            <option value="ar">Arkansas</option>
-            <option value="ca">California</option>
-            <option value="co">Colorado</option>
-            <option value="ct">Connecticut</option>
-            <option value="de">Delaware</option>
-            <option value="fl">Florida</option>
-            <option value="ga">Georgia</option>
-            <option value="hi">Hawaii</option>
-            <option value="id">Idaho</option>
-            <option value="il">Illinois</option>
-            <option value="il">Indiana</option>
-            <option value="il">Iowa</option>
-            <option value="il">Kansas</option>
-            <option value="il">Kentucky</option>
-            <option value="il">Louisiana</option>
-            <option value="il">Maine</option>
-            <option value="il">Maryland</option>
-            <option value="il">Massachusetts</option>
-            <option value="il">Michigan</option>
-            <option value="il">Minnesota</option>
-            <option value="il">Mississippi</option>
-            <option value="il">Missouri</option>
-            <option value="il">Montana</option>
-            <option value="il">Nebraska</option>
-            <option value="il">Nevada</option>
-            <option value="il">New Hampshire</option>
-            <option value="il">New Jersey</option>
-            <option value="il">New Mexico</option>
-            <option value="il">New York</option>
-            <option value="il">North Carolina</option>
-            <option value="il">North Dakota</option>
-            <option value="il">Ohio</option>
-            <option value="il">Oklahoma</option>
-            <option value="il">Oregon</option>
-            <option value="il">Pennsylvania</option>
-            <option value="il">Rhode Island</option>
-            <option value="il">South Carolina</option>
-            <option value="il">South Dakota</option>
-            <option value="il">Tennessee</option>
-            <option value="il">Texas</option>
-            <option value="il">Utah</option>
-            <option value="il">Vermont</option>
-            <option value="il">Virginia</option>
-            <option value="il">Washington</option>
-            <option value="il">West Virginia</option>
-            <option value="il">Wisconsin</option>
-            <option value="il">Wyoming</option>
-            <option value="il">I am not from the US</option>
-          </select><br>
-          <label for="Origin2">Country of Origin</label>
-          <input type="text" name="Origin2" id="Origin2"><br>
-    </form>
+    <div class="form_contain">
+        <form name="myform" class="form" action="survey_data.html" method="get">
+            <h4>Contact Information</h4>
+            <label for="name">Name:</label>
+            <input type="text" name="Name" id="name" autofocus required><br>
+            <label for="email">Email:</label>
+            <input type="email" name="Email" id="email" autofocus required><br>
+            <label for="State">State:</label>
+            <select name="State" id="origin">
+                <option value="al">Alabama</option>
+                <option value="ak">Alaska</option>
+                <option value="az">Arizona</option>
+                <option value="ar">Arkansas</option>
+                <option value="ca">California</option>
+                <option value="co">Colorado</option>
+                <option value="ct">Connecticut</option>
+                <option value="de">Delaware</option>
+                <option value="fl">Florida</option>
+                <option value="ga">Georgia</option>
+                <option value="hi">Hawaii</option>
+                <option value="id">Idaho</option>
+                <option value="il">Illinois</option>
+                <option value="in">Indiana</option>
+                <option value="io">Iowa</option>
+                <option value="ks">Kansas</option>
+                <option value="ky">Kentucky</option>
+                <option value="la">Louisiana</option>
+                <option value="me">Maine</option>
+                <option value="md">Maryland</option>
+                <option value="ma">Massachusetts</option>
+                <option value="mi">Michigan</option>
+                <option value="mn">Minnesota</option>
+                <option value="ms">Mississippi</option>
+                <option value="mo">Missouri</option>
+                <option value="mo">Montana</option>
+                <option value="ne">Nebraska</option>
+                <option value="nv">Nevada</option>
+                <option value="nh">New Hampshire</option>
+                <option value="nj">New Jersey</option>
+                <option value="nm">New Mexico</option>
+                <option value="ny">New York</option>
+                <option value="nc">North Carolina</option>
+                <option value="nd">North Dakota</option>
+                <option value="oh">Ohio</option>
+                <option value="ok">Oklahoma</option>
+                <option value="or">Oregon</option>
+                <option value="pa">Pennsylvania</option>
+                <option value="ri">Rhode Island</option>
+                <option value="sc">South Carolina</option>
+                <option value="sd">South Dakota</option>
+                <option value="tn">Tennessee</option>
+                <option value="tx">Texas</option>
+                <option value="ut">Utah</option>
+                <option value="vt">Vermont</option>
+                <option value="va">Virginia</option>
+                <option value="wa">Washington</option>
+                <option value="wv">West Virginia</option>
+                <option value="wi">Wisconsin</option>
+                <option value="wy">Wyoming</option>
+                <option value="xx">I am not from the US</option>
+            </select><br>
+            <label for="Origin2">Origin Country:</label>
+            <input type="text" name="Country of Origin" id="Origin2"><br>
 
+            <h4>Game Information</h4>
+            <label for="game">Game of Interest:</label>
+            <select name="Game" id="game" required>
+                <option value="apex">Apex Legends</option>
+                <option value="cod">Call of Duty</option>
+                <option value="csgo">CS:GO</option>
+                <option value="fgc">Fighting Games</option>
+                <option value="hearth">Hearthstone</option>
+                <option value="lol">League of Legends</option>
+                <option value="ow">Overwatch</option>
+                <option value="r6">Rainbow Six Siege</option>
+                <option value="rl">Rocket Leauge</option>
+                <option value="rhythm">Rhythm Games</option>
+                <option value="smash">Smash Bros</option>
+                <option value="valorant">Valorant</option>
+                <option value="other">Other</option>
+            </select><br>
+            <label for="message">Message:</label>
+            <input type="text" name="Message" id="form_message" required><br>
+
+            <input type="submit" name="button" id="form_submit" value="Submit">
+            <input type="reset" name="reset" id="form_reset">
+        </form>
+    </div>
 </body>
 
 <!-- Footer -->
