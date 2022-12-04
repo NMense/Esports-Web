@@ -674,35 +674,56 @@ p {
     text-align: right;
 }
 
-.weekly_flex {
+#week_meet {
     margin: 2em 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.weekly_flex > div {
+#week_meet > tbody > tr > th {
     background-color: #481A1B;
     color: white;
+    font-size: 300%;
+    padding: 0.2em 0.4em;
 }
 
-.weekly_flex > div > h3 {
+#week_meet > tbody > tr > td {
     text-align: center;
-    padding: 0.5em 1em;
-}
-
-.weekly_flex > div > p {
-    border: 1px solid black;
-    padding: 0.5em 1em;
     background-color: white;
     color: black;
     text-align: center;
+    font-size: 200%;
+    padding: 0.2em 0.4em;
 }
 
 @media screen and (max-width: 600px) {
     #team-s-contain > a {
         height: 6em;
         width: 6em;
+    }
+
+    #week_meet_mb {
+        margin: 2em 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #week_meet_mb > tbody > tr > th {
+        background-color: #481A1B;
+        color: white;
+        font-size: 150%;
+        padding: 0.2em 0.4em;
+    }
+    
+    #week_meet_mb > tbody > tr > td {
+        text-align: center;
+        background-color: white;
+        color: black;
+        text-align: center;
+        font-size: 100%;
+        padding: 0.2em 0.4em;
     }
     
     .leave_mb {
@@ -723,11 +744,20 @@ p {
 	#nav {
         display: none;
     }
+
+    .flex_photo3 {
+        width: 100%;
+        display: flex;
+    }
     
     .js .slicknav_menu {
 		display: block;
         background-color: #481A1B;
 	}
+
+    .leave_med {
+        display: none;
+    }
 
     .player_info > div, .record > div {
         width: 100%;
@@ -736,6 +766,8 @@ p {
     .row-full-rec {
         padding: 0 auto;
     }
+
+
 }
 
 @media screen and (max-width: 1080px) {
@@ -745,6 +777,14 @@ p {
 
     #mission-text > .textr {
         text-align: left;
+    }
+
+    #week_meet > tbody > tr > th {
+        font-size: 200%;
+    }
+    
+    #week_meet > tbody > tr > td {
+        font-size: 134%
     }
 
     .leave {
