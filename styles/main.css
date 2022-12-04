@@ -98,8 +98,12 @@ p {
     background-image: url(../pages/casual/images/stepmania.png);
 }
 
-#compcasual {
+#compcasual, #compcasual-text {
     padding: 0 1.2em;
+}
+
+#compcasual-mb {
+    display: none;
 }
 
 #current {
@@ -246,6 +250,10 @@ p {
     background-color: #ddd;
 }
 
+#news-img {
+    width: 90%;
+}
+
 #opening-img {
     height: 48em;
     float: right;
@@ -322,6 +330,10 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#vid-opening {
+    height: 30em;
 }
 
 .back-maroon {
@@ -499,6 +511,10 @@ p {
     padding: 2% auto;
 }
 
+.pp-side {
+    padding: auto 2%
+}
+
 .record {
     width: 100%;
     display: grid;
@@ -550,6 +566,10 @@ p {
 
 .record-text {
     padding: 0.1em;
+}
+
+.return {
+    display: none;
 }
 
 .row-full {
@@ -679,12 +699,27 @@ p {
 }
 
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 827px) {
 	#nav {
         display: none;
     }
     
     .js .slicknav_menu {
 		display: block;
+        background-color: #481A1B;
 	}
+}
+
+@media screen and (max-width: 1080px) {
+	#aboutus-logo {
+        display: none;
+    }
+
+    .leave {
+        display: none;
+    }
+
+    .return {
+        display: block;
+    }
 }
