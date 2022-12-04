@@ -86,10 +86,6 @@ p {
     padding: 0.5em 0.2em 0.5em 0.2em;
 }
 
-#aboutshort {
-    font-size: 200%;
-}
-
 #aboutus-logo {
     width: 100%;
 }
@@ -103,7 +99,7 @@ p {
 }
 
 #compcasual {
-    text-align: left;
+    padding: 0 1.2em;
 }
 
 #current {
@@ -238,7 +234,6 @@ p {
     border-bottom: 1px solid #ddd;
 }
 
-
 #nav ul li:hover ul {
     display: block;
 }
@@ -249,11 +244,6 @@ p {
 
 #nav ul li:hover ul a:hover {
     background-color: #ddd;
-}
-
-#news-img {
-    margin-top: 4em;
-    width: 100%;
 }
 
 #opening-img {
@@ -337,6 +327,13 @@ p {
 .back-maroon {
     background-color: #481A1B;
     color: white;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .column {
@@ -498,6 +495,10 @@ p {
     padding: 0.2em;
 }
 
+.pp {
+    padding: 2% auto;
+}
+
 .record {
     width: 100%;
     display: grid;
@@ -554,6 +555,18 @@ p {
 .row-full {
     margin: 0;
     padding: 0 7.5% 0 7.5%;
+}
+
+.row-full-flex {
+    margin: 0;
+    padding: 0 7.5% 0 7.5%;
+    display: flex;
+}
+
+.row-full-flex-pp {
+    margin: 0;
+    padding: 2% 7.5% 2% 7.5%;
+    display: flex;
 }
 
 .row-full-nol {  
