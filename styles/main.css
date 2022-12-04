@@ -94,8 +94,16 @@ p {
     background-image: url(../pages/casual/images/fighting.png);
 }
 
+#cas-s-fight:hover {
+    background-image: url(../pages/casual/images/fighting2.png);
+}
+
 #cas-s-step {
     background-image: url(../pages/casual/images/stepmania.png);
+}
+
+#cas-s-step:hover {
+    background-image: url(../pages/casual/images/rhythm2.jpg);
 }
 
 #compcasual, #compcasual-text {
@@ -251,7 +259,16 @@ p {
 }
 
 #news-img {
-    width: 90%;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    background: url(../images/rlplayers.jpg);
+}
+
+#news-img:hover {
+    background: url(../images/news_hover.jpg);
 }
 
 #opening-img {
@@ -293,15 +310,31 @@ p {
     background-image: url(../pages/teams/images/apex.webp);
 }
 
+#team-s-apex:hover {
+    background-image: url(../pages/teams/images/apex2.png);
+}
+
 #team-s-cod {
     background-image: url(../pages/teams/images/cod.webp);
+}
+
+#team-s-cod:hover {
+    background-image: url(../pages/teams/images/cod2.png);
 }
 
 #team-s-csgo {
     background-image: url(../pages/teams/images/csgo.png);
 }
 
+#team-s-csgo:hover {
+    background-image: url(../pages/teams/images/csgo2.jpg);
+}
+
 #team-s-hearth {
+    background-image: url(../pages/teams/images/hearthstone2.jpg);
+}
+
+#team-s-hearth:hover {
     background-image: url(../pages/teams/images/hearthstone.png);
 }
 
@@ -309,7 +342,15 @@ p {
     background-image: url(../pages/teams/images/lol.jpeg);
 }
 
+#team-s-lol:hover {
+    background-image: url(../pages/teams/images/lol2.jpeg);
+}
+
 #team-s-ow {
+    background-image: url(../pages/teams/images/ow2-2.jpg);
+}
+
+#team-s-ow:hover {
     background-image: url(../pages/teams/images/ow2.jpg);
 }
 
@@ -317,12 +358,24 @@ p {
     background-image: url(../pages/teams/images/rl.webp);
 }
 
+#team-s-rl:hover {
+    background-image: url(../pages/teams/images/rl2.jpg);
+}
+
 #team-s-smash, #cas-s-smash {
     background-image: url(../pages/teams/images/smash.jfif);
 }
 
+#team-s-smash:hover, #cas-s-smash:hover {
+    background-image: url(../pages/teams/images/smash2.webp);
+}
+
 #team-s-val {
     background-image: url(../pages/teams/images/valorant.jpg);
+}
+
+#team-s-val:hover {
+    background-image: url(../pages/teams/images/valorant2.jpg);
 }
 
 #team-s-contain {
@@ -568,7 +621,7 @@ p {
     width: 8em;
 }
 
-.return, .return_mb {
+.return, .return_mb, .return_lar {
     display: none;
 }
 
@@ -655,7 +708,9 @@ p {
 .team-select {
     margin: 3%;
     border-radius: 1em;
-    transition: transform .2s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -801,6 +856,19 @@ p {
     }
 }
 
-@media screen and (max-width: 1250px) {
-	
+@media screen and (max-width: 1300px) {
+	.events_img {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .leave_lar {
+        display: none;
+    }
+
+    .return_lar {
+        display: block
+    }
 }
