@@ -530,56 +530,42 @@ p {
 }
 
 .record {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    margin: 2em auto;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.record-date {
+.record > div {
+    display: flex;
+    width: 620px;
+    margin-top: 0;
+}
+
+.record_date {
     background-color: #481A1B;
     padding: 0.1em 0.3em;
     color: white;
     display: block;
 }
 
-.record-logo {
-    width: 8em;
-}
-
 .record_sec {
     display: block;
     padding: 1em 0.5em;
+    width: 100%;
 }
 
-.record_sec_high {
-    display: grid;
-    grid-template-columns: 20% 80%;
-}
-
-.record_sec_high > div {
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-.record_sec_high1 > div {
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-
-.record_sec_high1 {
-    display: grid;
-    grid-template-columns: 5% 40%;
-}
-
-.record_sec_high > .record_sec {
-    margin: 0;
-}
-
-.record-text {
+.record_sec > p {
     padding: 0.1em;
+}
+
+.record_img {
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    vertical-align: middle;
+    width: 8em;
 }
 
 .return, .return_mb {
@@ -743,7 +729,7 @@ p {
         background-color: #481A1B;
 	}
 
-    .player_info > div {
+    .player_info > div, .record > div {
         width: 100%;
     }
 
@@ -765,7 +751,7 @@ p {
         display: none;
     }
 
-    .player_info {
+    .player_info, .record {
         display: block;
         margin: auto 0;
     }
