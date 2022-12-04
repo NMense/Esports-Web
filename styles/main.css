@@ -492,19 +492,33 @@ p {
 }
 
 .player_img {
-    width: 100%;
     min-width: 170px;
+    max-width: 170px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto 0;
 }
 
 .player_info {
-    margin: 2em 3em;
-    max-width: 240px;
+    margin: 2em auto;
     top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.player_info > p {
+.player_info > div {
+    display: flex;
+    width: 620px;
+}
+
+.player_text {
+    padding: 1em 2em;
+}
+
+.player_text > p {
     font-size: 150%;
-    padding: 0.2em;
 }
 
 .pp {
@@ -568,7 +582,7 @@ p {
     padding: 0.1em;
 }
 
-.return {
+.return, .return_mb {
     display: none;
 }
 
@@ -608,6 +622,7 @@ p {
     align-items: center;
     margin: 0;
     padding: 0 7.5% 0 7.5%;
+    display: block;
 }
 
 .row-grid-w {
@@ -698,6 +713,25 @@ p {
     text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+    #team-s-contain > a {
+        height: 6em;
+        width: 6em;
+    }
+    
+    .leave_mb {
+        display: none;
+    }
+
+    .player_text {
+        padding: auto;
+    }
+
+    .return_mb {
+        display: block;
+    }
+    
+}
 
 @media screen and (max-width: 827px) {
 	#nav {
@@ -708,6 +742,14 @@ p {
 		display: block;
         background-color: #481A1B;
 	}
+
+    .player_info > div {
+        width: 100%;
+    }
+
+    .row-full-rec {
+        padding: 0 auto;
+    }
 }
 
 @media screen and (max-width: 1080px) {
@@ -715,11 +757,24 @@ p {
         display: none;
     }
 
+    #mission-text > .textr {
+        text-align: left;
+    }
+
     .leave {
         display: none;
+    }
+
+    .player_info {
+        display: block;
+        margin: auto 0;
     }
 
     .return {
         display: block;
     }
+}
+
+@media screen and (max-width: 1250px) {
+	
 }
