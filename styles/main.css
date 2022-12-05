@@ -35,8 +35,26 @@
     src: url(../fonts/Ubuntu.ttf);
 }
 
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #cc1329;
+}
+
+::selection {
+    color: white;
+    background: #cc1329;
+}
+
 a {
     font-size: inherit;
+}
+
+a:link, a:visited {
+    color: #481A1B;
+}
+
+a:hover, a:active {
+    color: #cc1329;
 }
 
 b {
