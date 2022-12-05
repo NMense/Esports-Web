@@ -753,6 +753,10 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 500%;
+    }
+
     #team-s-contain > a {
         height: 6em;
         width: 6em;
